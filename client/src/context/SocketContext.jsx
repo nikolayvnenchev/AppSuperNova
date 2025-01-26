@@ -9,7 +9,7 @@ export const SocketContextProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    setSocket(io("https://appsupernova.onrender.com"));
+    setSocket(io("https://imotisupernova.onrender.com"));
   }, []);
 
   useEffect(() => {

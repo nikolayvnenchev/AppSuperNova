@@ -1,0 +1,149 @@
+@import "../../responsive.scss";
+
+.newPostPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgba(160, 123, 10, 0.6);
+    border-radius: 10px;
+
+    @include sm {
+        height: fit-content;
+        display: inline-block;
+    }
+
+    .formContainer {
+        flex: 3;
+        overflow: scroll;
+        color: white;
+
+        h1 {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .wrapper {
+            margin: 30px 50px 100px 5px;
+
+            @include md {
+                margin: 0px;
+            }
+
+            @include sm {
+                margin: 0px;
+            }
+
+            form {
+                // padding: 5px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 20px;
+
+                @include md {
+                    gap: 1rem;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                }
+
+                @include sm {
+                    gap: 1rem;
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+                }
+
+                .item {
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    label {
+                        
+                    }
+
+                    input {
+                        padding: 20px;
+                        border-radius: 5px;
+                        border: 1px solid gray;
+                    }
+
+                    select {
+                        padding: 19px;
+                    }
+
+                    &.description {
+                        width: 100%;
+                        height: 320px;
+
+                        .quill>.ql-container>.ql-editor {
+                            height: 200px;
+                            font-size: 16px;
+
+                            @include md {
+                                height: 11rem;
+                                // display: inline-block;
+                            }
+
+                            @include sm {
+                                height: 11rem;
+                                // display: inline-block;
+                            }
+                        }
+
+                        .ql-snow {
+                            color: black;
+                            background-color: white;
+                        }
+
+                    }
+                }
+
+                .item description {
+                    color: black;
+                    background-color: white;
+                }
+
+                .sendButton {
+                    width: 30%;
+                    border-radius: 5px;
+                    border: none;
+                    background-color: #efbe43;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .sideContainer {
+        height: auto;
+        flex: 2;
+        // background-color: #fcf5f3;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+        @include md {
+            margin-bottom: 1rem;
+        }
+
+        @include sm {
+            margin-bottom: 1rem;
+        }
+
+        img {
+            width: 12rem;
+            height: auto;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #efbe43;
+        }
+    }
+}

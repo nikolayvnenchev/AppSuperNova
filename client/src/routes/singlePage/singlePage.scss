@@ -1,0 +1,334 @@
+@import "../../responsive.scss";
+
+.singlePage {
+  display: flex;
+  height: 100%;
+  background-color: rgba(160, 123, 10, 0.6);
+  border-radius: 10px;
+  overflow-y: scroll;
+  position: relative;
+
+  @include md {
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .details {
+    flex: 3;
+    height: 100%;
+    padding: 10px;
+    // overflow-y: scroll;
+
+    @include md {
+      flex: none;
+      height: max-content;
+      margin-bottom: 50px;
+    }
+
+    .wrapper {
+      padding-right: 50px;
+
+      @include lg {
+        padding-right: 20px;
+      }
+      @include md {
+        padding-right: 0px;
+      }
+      .fullSlider {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .imgContainer {
+        // flex: none
+        width: 90%;
+        height: 90%;
+      }
+
+      .imgContainer img {
+        // flex: none
+        object-fit: contain;
+      }
+
+      .smallImages { 
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+
+      .smallImages img {
+        padding-right: 10px;
+        border-radius: 0px;
+      }
+
+      .info {
+        margin-top: 50px;        
+        .top {
+          display: flex;
+          justify-content: space-between;
+
+          @include sm {
+            flex-direction: column;
+            gap: 20px;
+          }
+
+          .post {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h1 {
+              font-weight: 400;
+              color: white;
+            }
+            .address {
+              display: flex;
+              gap: 5px;
+              align-items: center;
+              color: white;
+              font-size: 14px;
+
+              img {
+                width: 16px;
+                height: 16px;
+              }
+            }
+            .price {
+              padding: 5px;
+              background-color: white;
+              border-radius: 5px;
+              width: max-content;
+              font-size: 20px;
+              font-weight: 300;
+            }
+          }
+          .user {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 0px 50px;
+            border-radius: 10px;
+            // background-color: rgba(254, 205, 81, 0.209);
+            font-weight: 600;
+            color: white;
+
+            @include sm {
+              padding: 20px 50px;
+            }
+
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              object-fit: cover;
+            }
+          }
+        }
+        .bottom {
+          width: 100%;
+          height: 100%;
+          margin-top: 50px;
+          color: white;
+          line-height: 20px;
+        }
+
+        .bottom p{
+          display: flex;
+          flex-direction: column;
+          word-wrap: break-word;
+          color: white;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  .features {
+    flex: 2;
+    height: 100%;
+    padding: 10px;
+    // overflow-y: scroll;
+
+    @include md {
+      flex: none;
+      height: max-content;
+      margin-bottom: 50px;
+    }
+
+    .wrapper {
+      padding: 0px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      @include md {
+        padding: 20px;
+      }
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: white;
+      }
+
+      .feature {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          background-color: rgba(254, 205, 81, 0.209);
+        }
+
+        .featureText {
+          span {
+            font-weight: bold;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .listVertical {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+        background-color: white;
+        border-radius: 10px;
+      }
+      .listHorizontal {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+        background-color: white;
+        border-radius: 10px;
+      }
+
+      .sizes {
+        display: flex;
+        justify-content: space-between;
+
+        @include lg {
+          font-size: 12px;
+        }
+
+        .size {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          background-color: white;
+          padding: 10px;
+          border-radius: 5px;
+        }
+      }
+
+      .mapContainer {
+        width: 100%;
+        height: 200px;
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          padding: 20px;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          background-color: white;
+          border: 1px solid #fece51;
+          border-radius: 5px;
+          cursor: pointer;
+
+          img {
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+
+      .error-message {
+        color: white;
+        font-size: 14px;
+        background-color: red;
+        border-radius: 5px;
+        width: fit-content;
+        height: fit-content;
+        // margin-top: 10px;
+        text-align: center;
+        animation: fadeOut 3s forwards;
+      }
+
+      @keyframes fadeOut {
+        0% {
+            opacity: 1;  /* Initially visible */
+        }
+        99% {
+            opacity: 1;  /* Still visible up to just before 3 seconds */
+        }
+        100% {
+            opacity: 0;  /* Fully invisible at the end */
+            display: none; /* Optionally hide the element */
+        }
+    }
+    }
+  }
+}
+
+.dialog-backdrop {
+  position: fixed; /* Ensure the backdrop covers the full screen */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9998; /* Ensure it's below the modal */
+  background-color: rgba(21, 19, 16, 0.7); /* Slight dark background for backdrop */
+  pointer-events: all; /* Ensure it's clickable */
+  visibility: visible;
+}
+
+.dialog-container {
+  position: fixed; /* Use fixed positioning for overlay */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the modal */
+  z-index: 9999; /* Ensure it's on top */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  max-width: 500px; /* Limit modal size */
+  width: 100%;
+}
+
+.modal-buttons {
+  display: flex;
+  margin-top: 10px;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-buttons button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #fece51;
+}
+
+.modal-buttons .cancel {
+  background-color: #fff;
+  color: #333;
+}
+
+.modal-buttons .confirm {
+  background-color: #fece51;
+  color: #fff;
+}

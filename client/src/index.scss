@@ -1,0 +1,33 @@
+@import "./responsive.scss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+  background-image: url('/public/home.webp');
+  background-size: cover;
+  // background-position: center;
+  background-position-x: 65%;
+  background-position-y: 10%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  @include sm {
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-attachment: fixed;
+  }
+}

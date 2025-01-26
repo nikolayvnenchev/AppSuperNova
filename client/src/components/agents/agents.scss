@@ -1,0 +1,72 @@
+@import "../../responsive.scss";
+
+.mainAgents {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+
+    .title {
+        padding: 10px;
+        font-size: 50px;
+        font-weight: bold ;
+        text-align: center;
+        color: white;
+        background-color: rgba(160, 123, 10, 0.6);
+        width: fit-content;
+        border-radius: 10px;
+    }
+
+    .agents {
+        width: 100%;
+        // height: 100;
+        display: flex;
+        flex-wrap: wrap; /* This allows wrapping of items to the next line */
+        justify-content: center;
+    }
+    .agent-box {
+        width: 20rem;
+        height: 30rem;
+        padding: 10px;
+        margin: 10px 5px;
+        background-color: rgba(160, 123, 10, 0.6);
+        border-radius: 10px;
+    }
+
+    .imgageContainer {
+        // height: 65%;
+        width: 100%;
+        background-color: #fcf5f3;
+
+        @include md {
+            width: 100%;
+        }
+
+          @include sm {
+            width: 100%;
+        }
+    }
+
+    .img {
+        height: 20rem;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .textContainer {
+        // height: 35%;
+        margin-top: 1.6rem;
+        padding: 0 20px;
+        text-align: center;
+        // align-items: center;
+    }
+
+    .textContainer p {
+        font-size: large;
+        font-weight: bold;
+        padding: 0.2rem;
+        color: white;
+        // text-align: center;
+        // text-decoration: none;
+    }
+}

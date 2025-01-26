@@ -1,0 +1,121 @@
+@import "../../responsive.scss";
+
+.mainContact {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+
+    .infoContainer {
+        height: 50%;
+        width: max-content;
+        display: inline-block;
+        background-color: rgba(160, 123, 10, 0.6);
+        border-radius: 10px;
+        justify-items: center;
+
+        @include sm {
+            // height: 60%;
+            width: 100%;
+            justify-items: normal;
+        }
+    }
+
+    .title {
+        width: max-content;
+        padding-right: 5px;
+        margin: 10px 0;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        // background-color: white;
+        // background-color: rgba(160, 123, 10, 0.6);
+
+        @include md {
+            width: max-content;
+        }
+
+          @include sm {
+            width: 100%;
+            padding: 0;
+            // width: max-content;
+        }
+    }
+
+    .paragraph {
+        // margin-right: 30%;
+        // margin-left: 33%;
+        width: max-content;
+        display: flex;
+        align-items: center;    
+        font-size: x-large;
+        text-align: left;       
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 5px;
+        color: white;
+
+        // background-color: white;
+        // background-color: rgba(160, 123, 10, 0.6);
+        // justify-content: center;
+
+        @include md {
+            // height: 3.2rem;
+            width: max-content;
+            align-items: center;    
+        }
+        @include sm {
+            // margin-left: 0;
+            // height: 3.2rem;
+            // width: 100%;
+            width: fit-content;
+            align-items: center;
+            font-size: medium;  
+        }
+    }
+
+    // .paragraph {
+    //     height: 15%;
+    //     font-size: medium;
+    //     text-align: center;
+    //     display: flex;
+    //     margin-bottom: 10px;
+    //     align-items: center;
+    //     @include md {
+    //         width: 100%;
+    //     }
+
+    //       @include sm {
+    //         width: 100%;
+    //     }
+    // }
+
+    .paragraph svg {
+        height: 2.2rem;
+        width: 2rem;
+        margin-right: 10px;
+
+        @include md {
+            height: 2.2rem;
+        }
+        @include sm {
+            height: 2.2rem;
+        }
+    }
+
+    .mapContainer {
+        height: 50%;
+        width: 100%;
+        padding-top: 10px;
+        // background-color: #fcf5f3;
+
+        @include md {
+            width: 100%;
+        }
+
+          @include sm {
+            width: 100%;
+        }
+    }
+}

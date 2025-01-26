@@ -1,0 +1,155 @@
+@import "../../responsive.scss";
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: rgba(160, 123, 10, 0.6);
+  border-radius: 10px;
+  // padding-right: 15px;
+
+  @include sm {
+    width: 100%;
+    gap: 5px;
+  }
+
+  @include md {
+    width: 100%;
+    gap: 5px;
+  }
+
+
+  .imageContainer {
+    flex: 2;
+    height: 200px;
+    margin: 5px;
+
+    @include md {
+      flex: none;
+      width: 200px;
+    }
+
+    @include sm {
+      // flex: none;
+      width: 200px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+
+  .textContainer {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 5px;
+
+    @include sm {
+      width: fit-content;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+
+    .title {
+      font-size: 20px;
+      // font-weight: 600;
+      // color: white;
+      width: fit-content;
+      padding: 5px;
+      background-color: white;
+      border-radius: 5px;
+      transition: all 0.4s ease;
+
+      &:hover {
+        // color: grey;
+        // scale: 1.05;
+        zoom: 1.08;
+      }
+    }
+
+    .address {
+      width: fit-content;
+      padding: 5px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      // color: white;
+      background-color: white;
+      border-radius: 5px;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: 300;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: white;
+      width: max-content;
+      // color: white;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+
+      @include md {
+        display: inline-block;
+      }
+
+      @include sm {
+        display: none;
+      }
+
+      .features {
+        display: flex;
+        gap: 5px;
+        font-size: 14px;
+        margin-bottom: 2px;
+
+        .feature {
+          display: flex;
+          align-items: center;
+          gap: 0px;
+          background-color: whitesmoke;
+          padding: 5px;
+          border-radius: 5px;
+        }
+      }
+
+      .icons {
+        display: flex;
+        gap: 0px;
+
+        // @include md {
+        //   display: none;
+        // }
+
+        .icon {
+          border: 1px solid #999;
+          padding: 2px 5px;
+          border-radius: 5px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: white;
+
+          &:hover {
+            background-color: lightgray;
+          }
+        }
+      }
+    }
+  }
+}

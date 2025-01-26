@@ -1,0 +1,65 @@
+@import "../../responsive.scss";
+
+.mainAbout {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+
+    .textContainer {
+        padding: 0 20px;
+        text-align: center;
+        background-color: rgba(160, 123, 10, 0.6);
+        border-radius: 10px;
+
+        .title {
+            padding: 10px;
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            // background-color: rgba(160, 123, 10, 0.6);
+        }
+
+        .story {
+            // margin-bottom: 10px;
+            font-size: xx-large;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            // background-color: rgba(160, 123, 10, 0.6);
+        }
+    }
+
+    .imgageContainer {
+        width: 100%;
+        background-color: #fcf5f3;
+
+        @include md {
+            width: 100%;
+        }
+
+          @include sm {
+            width: 100%;
+        }
+    }
+
+    .img {
+        height: 400px;
+        width: 100%;
+
+        @include lg {
+            width: 100%;
+        }
+
+        @include md {
+            align-items: center;
+            height: 300px;
+            width: 100%;
+        }
+
+          @include sm {
+            align-items: center;
+            height: 200px;
+            width: 100%;
+        }
+    }
+}

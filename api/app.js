@@ -20,7 +20,3 @@ app.use("/api/posts", postRoute);
 app.use("/api/test", testRoute);
 app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
-
-app.listen(www.appsupernova.onrender.com, () => {
-    console.log("Server is running on https://appsupernova.onrender.com!");
-})

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-  baseURL: "https://appsupernova.onrender.com",
+  baseURL: "https://imotisupernova.onrender.com",
   withCredentials: true,
 });
 

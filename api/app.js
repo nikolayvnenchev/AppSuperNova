@@ -21,6 +21,6 @@ app.use("/api/test", testRoute);
 app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
 
-app.listen(8800, () => {
-    console.log("Server is running on port 8800!");
+app.listen(https://appsupernova.onrender.com, () => {
+    console.log("Server is running on https://appsupernova.onrender.com!");
 })

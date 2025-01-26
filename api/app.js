@@ -23,5 +23,5 @@ app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
 
 app.listen(port, () => {
-    console.log("Server is running on port 8800!");
+    console.log("Server is running on port ${port}!");
 })

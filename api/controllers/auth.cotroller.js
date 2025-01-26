@@ -69,7 +69,7 @@ export const login = async (req, res) => {
             httpOnly: true,
             secure: process.env.NODE_ENV === 'production',
             sameSite: 'None',
-            domain: '.onrender.com',
+            domain: 'imotisupernova.onrender.com',
             maxAge: age,
            })
            .status(200)

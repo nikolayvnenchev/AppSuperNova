@@ -68,7 +68,7 @@ export const login = async (req, res) => {
            .cookie("token", token, {
             httpOnly: true,
             secure: process.env.NODE_ENV === 'production',
-            sameSite: 'None',
+            sameSite: 'Strict',
             domain: 'imotisupernova.onrender.com',
             maxAge: age,
            })

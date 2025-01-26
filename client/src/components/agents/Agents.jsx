@@ -9,7 +9,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../ico1.jpeg" alt="logo"
+                            src="https://imotisupernova.onrender.com/ico1.jpeg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">
@@ -22,7 +22,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../public/ico2.jpeg" alt="logo"
+                            src="https://imotisupernova.onrender.com/ico2.jpeg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">
@@ -35,7 +35,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../public/ico3.jpeg" alt="logo"
+                            src="https://imotisupernova.onrender.com/ico3.jpeg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">
@@ -48,7 +48,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../public/niki.jpg" alt="logo"
+                            src="https://imotisupernova.onrender.com/niki.jpg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">
@@ -61,7 +61,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../public/niki.jpg" alt="logo"
+                            src="https://imotisupernova.onrender.com/niki.jpg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">
@@ -74,7 +74,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../public/niki.jpg" alt="logo"
+                            src="https://imotisupernova.onrender.com/niki.jpg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">
@@ -87,7 +87,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../public/niki.jpg" alt="logo"
+                            src="https://imotisupernova.onrender.com/niki.jpg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">
@@ -100,7 +100,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../public/niki.jpg" alt="logo"
+                            src="https://imotisupernova.onrender.com/niki.jpg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">

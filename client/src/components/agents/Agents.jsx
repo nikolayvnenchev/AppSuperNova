@@ -9,7 +9,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="../public/ico1.jpeg" alt="logo"
+                            src="../ico1.jpeg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">

@@ -109,7 +109,7 @@ function Chat({ chats, setChats }) {
         <div className="chatBox">
           <div className="top">
             <div className="user">
-              <img src={chat.receiver.avatar || "noavatar.jpg"} alt="" />
+              <img src={chat.receiver.avatar || "/noavatar.jpg"} alt="" />
               {chat.receiver.username}
             </div>
             <span className="close" onClick={() => setChat(null)}>

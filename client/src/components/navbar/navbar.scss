@@ -117,7 +117,7 @@ nav {
     }
 
     .notification{
-      position: absolute;
+      position: fixed;
       top: -8px;
       right: -8px;
       background-color: red;
@@ -125,7 +125,7 @@ nav {
       border-radius: 50%;
       width: 26px;
       height: 26px;
-      display: flex;
+      // display: flex;
       align-items: center;
       justify-content: center;
     }

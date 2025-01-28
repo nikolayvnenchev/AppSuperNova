@@ -100,20 +100,6 @@ nav {
         }
       }
 
-      .notification{
-        position: absolute;
-        top: -8px;
-        right: -8px;
-        background-color: red;
-        color: white;
-        border-radius: 50%;
-        width: 26px;
-        height: 26px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
       span{
         @include sm{
           display: none;
@@ -128,6 +114,20 @@ nav {
         border-radius: 10px;
         position: relative;
       }
+    }
+
+    .notification{
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      background-color: red;
+      color: white;
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .register {

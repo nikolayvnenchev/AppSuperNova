@@ -11,7 +11,7 @@ import messageRoute from "./routes/message.route.js";
 const app = express();
 const port = process.env.PORT || 8800;
 
-app.use(cors({ origin: 'https://imotisupernova.onrender.com', credentials: true }));
+app.use(cors({ origin: 'https://imotisupernova.onrender.com/api', credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 

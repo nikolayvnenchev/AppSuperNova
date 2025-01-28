@@ -113,21 +113,30 @@ nav {
         border: none;
         border-radius: 10px;
         position: relative;
-      }
-    }
 
-    .notification{
-      position: fixed;
-      top: -8px;
-      right: -8px;
-      background-color: red;
-      color: white;
-      border-radius: 50%;
-      width: 26px;
-      height: 26px;
-      // display: flex;
-      align-items: center;
-      justify-content: center;
+        // @include sm{
+        //   display: inline-block;
+        //   padding: 10px;
+        //   margin: 10px;
+        //   border-radius: 10%;
+        //   background-color: white;
+        // }
+        
+        .notification{
+          position: absolute;
+          top: -8px;
+          right: -8px;
+          background-color: red;
+          color: white;
+          border-radius: 50%;
+          width: 26px;
+          height: 26px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+      }
     }
 
     .register {

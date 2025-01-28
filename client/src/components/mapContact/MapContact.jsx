@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer } from "../../../leaflet";
+import { MapContainer, TileLayer } from "../../../leaflet/src/Leaflet";
 import "./mapContact.scss";
 import "../../../leaflet/dist/leaflet.css";
 import Pin from "../pin/Pin";

@@ -1,4 +1,4 @@
-import { Marker, Popup } from "../../../leaflet";
+import { Marker, Popup } from "../../../leaflet/src/Leaflet";
 import "./pin.scss";
 import { Link } from "react-router-dom";
 

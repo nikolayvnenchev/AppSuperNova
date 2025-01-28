@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer } from "../../../leaflet/src/Leaflet";
 import "./map.scss";
-import "leaflet/dist/leaflet.css";
+import "./leaflet.css";
 import Pin from "../pin/Pin";
 
 function Map({ items }) {

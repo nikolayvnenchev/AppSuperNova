@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer } from "../../../leaflet/src/Leaflet";
 import "./mapContact.scss";
-import "../../../leaflet/dist/leaflet.css";
+import "./leaflet.css";
 import Pin from "../pin/Pin";
 import PinContact from "../pinContact/PinContact";
 //leaflet/dist/leaflet.css

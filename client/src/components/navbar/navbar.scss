@@ -126,13 +126,13 @@ nav {
 
     .user .notification{
       position: absolute;
-      top: -8px;
-      right: -8px;
+      top: 4px;
+      // right: -8px;
       background-color: red;
       color: white;
       border-radius: 50%;
-      width: 26px;
-      height: 26px;
+      width: 24px;
+      height: 24px;
       display: flex;
       align-items: center;
       justify-content: center;

@@ -35,7 +35,7 @@ export default function Agents() {
                     <div className="imageContainer">
                         <img
                             className="img"
-                            src="/ico3.jpeg" alt="logo"
+                            src="/Ico3.jpeg" alt="logo"
                         />
                     </div>
                     <div className="textContainer">

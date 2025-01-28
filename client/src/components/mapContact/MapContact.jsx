@@ -1,9 +1,9 @@
-import { MapContainer, TileLayer } from "react-leaflet";
+import { MapContainer, TileLayer } from "../../../leaflet";
 import "./mapContact.scss";
-import "leaflet/dist/leaflet.css";
+import "../../../leaflet/dist/leaflet.css";
 import Pin from "../pin/Pin";
 import PinContact from "../pinContact/PinContact";
-
+//leaflet/dist/leaflet.css
 // const item1 = [41.93015488916809, 25.552315767424865];
 // const item2 = [42.69952498425297, 23.325874451073695];
 let items = [

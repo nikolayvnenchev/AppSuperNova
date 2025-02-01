@@ -2,8 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer
-      className="bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left border-t border-neutral-300 dark:border-neutral-600">
+    <footer>
       <div className="p-4 text-neutral-700 dark:text-neutral-200">
         This site was created as an exam project in{' '}
         <a

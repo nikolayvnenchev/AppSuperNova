@@ -1,0 +1,18 @@
+@import "../../responsive.scss";
+
+footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* Makes the navbar fixed at the top */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9997;
+    color: white;
+    background-color: rgba(160, 123, 10, 0.6);
+}

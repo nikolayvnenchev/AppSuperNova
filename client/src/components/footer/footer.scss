@@ -1,5 +1,9 @@
 @import "../../responsive.scss";
 
+.context {
+    flex: 1;
+}
+
 .footerContainer {
     height: 60px;
     width: 100%;
@@ -9,10 +13,30 @@
     align-items: center;
     // position: absolute;
     /* Makes the navbar fixed at the top */
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9997;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    // z-index: 9997;
     color: white;
     background-color: rgba(160, 123, 10, 0.6);
+}
+
+footer {
+    position: absolute;
+    z-index: 9997;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
 }

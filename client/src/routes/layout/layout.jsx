@@ -14,9 +14,7 @@ function Layout() {
       <div className="content">
         <Outlet />
       </div>
-      <div>
         <Footer />
-      </div>
     </div>
   );
 }
@@ -34,6 +32,7 @@ function RequireAuth() {
         <div className="content">
           <Outlet />
         </div>
+        <Footer />
       </div>
     );
   }

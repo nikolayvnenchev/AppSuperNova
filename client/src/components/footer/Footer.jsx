@@ -3,16 +3,16 @@ import "./footer.scss";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer>
       <div className="footerContainer">
         <p>
-          This site was created as an exam project in{' '}
+        You can also find us on social media{' '}
         </p>
-        <a
+        {/* <a
           style={{ color: 'blue' }}
           className="hover-softuni text-neutral-800 font-bold dark:text-neutral-400"
           href="https://softuni.bg/"
-        >SoftUni</a>
+        >SoftUni</a> */}
         <div className="social-icons">
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

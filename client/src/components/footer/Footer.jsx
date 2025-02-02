@@ -20,9 +20,7 @@ export default function Footer() {
             </svg>
           </a>
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24">
-              <path d="m355.6 330 11.4-74h-71v-48c0-20.2 9.9-40 41.7-40h32.3v-63s-29.3-5-57.3-5c-58.5 0-96.7 35.4-96.7 99.6v56.4h-65v74h65v182h80v-182z" fill="#fff"/>
-            </svg>
+            <img src="/faceImg.jpg" alt="" />
           </a>
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

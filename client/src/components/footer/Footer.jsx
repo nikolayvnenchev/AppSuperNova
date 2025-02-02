@@ -18,13 +18,13 @@ export default function Footer() {
             <img src="/facebook.png" alt="" />
           </a>
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="/facebook.png" alt="" />
+            <img src="/instagram.png" alt="" />
           </a>
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            <img src="/facebook.png" alt="" />
+            <img src="/linkedin.png" alt="" />
           </a>
           <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-            <img src="/facebook.png" alt="" />
+            <img src="/youtube.png" alt="" />
           </a>
         </div>
       </div>

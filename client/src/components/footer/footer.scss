@@ -11,6 +11,11 @@
     position: relative;
     color: black;
     background-color: #f5f5f5c9;
+
+    @include sm {
+        height: fit-content;
+        flex-direction: column;
+    }
 }
 
 .phone-icons {
@@ -20,6 +25,7 @@
 
 .phone-icons img {
     width: 24px;
+    height: 24px;
 }
 
 .social-icons {

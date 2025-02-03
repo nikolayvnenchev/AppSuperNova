@@ -5,26 +5,26 @@ export default function Footer() {
   return (
     <footer>
       <div className="footerContainer">
+        <div className="phone-icons">
+        <p>
+          Fast chat on + 359 899 223 016 via:{' '}
+        </p>
+        <img src="/viber.png" alt="" />
+        <img src="/whatsapp.png" alt="" />
+        <img src="/telegram.png" alt="" />
+        </div>
         <p>
           You can also find us on social media{' '}
         </p>
-        {/* <a
-          style={{ color: 'blue' }}
-          className="hover-softuni text-neutral-800 font-bold dark:text-neutral-400"
-          href="https://softuni.bg/"
-        >SoftUni</a> */}
         <div className="social-icons">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/share/1MrW2YB8u7/" target="_blank" rel="noopener noreferrer">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/supernova.realestate?igsh=MWdlN3RpbXZiejJuYQ==" target="_blank" rel="noopener noreferrer">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            <img src="/linkedin.png" alt="" />
-          </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-            <img src="/youtube.png" alt="" />
+          <a href="https://www.tiktok.com/@supernovarealestate?_t=ZN-8taiQiDHtf4&_r=1" target="_blank" rel="noopener noreferrer">
+            <img src="/TikTok.png" alt="" />
           </a>
         </div>
       </div>

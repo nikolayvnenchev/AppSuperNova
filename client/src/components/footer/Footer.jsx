@@ -5,20 +5,26 @@ export default function Footer() {
   return (
     <footer>
       <div className="footerContainer">
+        <p>
+          Contact us + 359 899 223 016 !
+        </p>
         <div className="phone-icons">
           <p>
             Fast chat via{' '}
           </p>
-          <img src="/viber.png" alt="" />
-          <img src="/whatsapp.png" alt="" />
-          <img src="/telegram.png" alt="" />
-          <p>
-          {' '}on + 359 899 223 016 !
-          </p>
+          <a>
+            <img src="/viber.png" alt="" />
+          </a>
+          <a>
+            <img src="/whatsapp.png" alt="" />
+          </a>
+          <a>
+            <img src="/telegram.png" alt="" />
+          </a>
         </div>
         <div className="social-icons">
           <p>
-            You can also find us on social media{' '}
+            Social media{' '}
           </p>
           <a href="https://www.facebook.com/share/1MrW2YB8u7/" target="_blank" rel="noopener noreferrer">
             <img src="/facebook.png" alt="" />

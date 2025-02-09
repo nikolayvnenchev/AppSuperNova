@@ -19,6 +19,13 @@
     }
 }
 
+.footerContainer p {
+    padding-bottom: 0;
+
+    @include sm {
+        padding-bottom: 5px;
+    }
+}
 .phone-icons {
     display: flex;
     gap: 10px;
@@ -27,6 +34,11 @@
 .phone-icons img {
     width: 24px;
     height: 24px;
+
+    @include sm {
+        width: 14px;
+        height: 14px;
+    }
 }
 
 .phone-icons a {
@@ -46,6 +58,10 @@
 
 .social-icons img {
     width: 24px;
+
+    @include sm {
+        width: 14px;
+    }
 }
 
 .social-icons a:hover {

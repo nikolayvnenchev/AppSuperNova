@@ -12,13 +12,13 @@ export default function Footer() {
           <p>
             Fast chat via{' '}
           </p>
-          <a>
+          <a href="https://account.viber.com/bg/login" target="_blank" rel="noopener noreferrer">
             <img src="/viber.png" alt="" />
           </a>
-          <a>
+          <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
             <img src="/whatsapp.png" alt="" />
           </a>
-          <a>
+          <a href="https://web.telegram.org/a/" target="_blank" rel="noopener noreferrer">
             <img src="/telegram.png" alt="" />
           </a>
         </div>
